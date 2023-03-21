@@ -6,8 +6,11 @@
     <groupId>org.ieschabas</groupId>
     <artifactId>videoclub</artifactId>
     <name>videoclub</name>
+    <modules>
+        <module>Practicas</module>
+    </modules>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>11</java.version>
@@ -124,6 +127,17 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.1.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.ieschabas</groupId>
+            <artifactId>VideoclubBackEnd</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-text-field-flow</artifactId>
+            <version>23.3.6</version>
         </dependency>
     </dependencies>
 
